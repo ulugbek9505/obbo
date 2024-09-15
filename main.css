@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 46px;
+}
+.container{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__lits{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.header__link{
+    color: rgb(31, 21, 52);
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: red;
+}
+.hero{
+    padding: 91px 0;
+}
+.texbox{
+    width: 440px;
+}
+.hero__title{
+    color: rgb(0, 0, 0);
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 56px;
+    letter-spacing: 0%;
+}
+.hero__text{
+    color: rgb(125, 121, 135);
+    font-family: "Mulish";
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 32px;
+    margin: 35.09px 0;
+}
+.hero__btn{
+    border-radius: 55px;
+    border: none;
+width: 197px;
+padding: 10px;
+color: white;
+background: rgb(69, 143, 246);
+transition: 0.9s ease-in-out;
+}
+.hero__btn:hover{
+    background-color: black;
+
+}
+.wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.hero1{
+padding-bottom: 50px;
+}
+.h2{
+    color: rgb(0, 0, 0);
+font-family: Mulish;
+font-size: 36px;
+font-weight: 200;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.p{
+    color: rgb(125, 121, 135);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 200;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+width: 952px;
+margin: 0 auto;
+margin-top: 61px;
+margin-bottom: 36px;
+}
+.bola{
+    width: 380px;
+    border-radius: 20px;
+padding: 68px 58px 28px 41px;
+/* drop shadow */
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+background: rgb(231, 231, 231);
+}
+.h3{
+    color: #000000;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 200;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 40px;
+margin-bottom: 10px;
+}
+.hero__text{
+    color: rgb(125, 121, 135);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 200;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.bola{
+    width: 300px;
+    border-radius: 20px;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+background: rgb(231, 231, 231);
+}
+.bola:hover{
+    background-color:blue;
+}
+.container1{
+    box-sizing: border-box;
+border: 1px solid rgb(69, 143, 246);
+border-radius: 55px;
+width: 400px;
+justify-content: space-around;
+}
+.hero2{
+    text-align: center;
+    display: block;
+}
+.bot{
+   margin-top: 49px;
+   display: flex;
+   margin: 0 auto;
+}
+.bot{
+    width: 200px;
+    padding: 17px 0;
+    border: 1.4px solid rgb(69, 143, 246);
+border-radius: 55px;
+color: rgb(69, 143, 246);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 200;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+display: flex;
+justify-content: center;
+margin-top: 32px;
+}
+.bot1{
+    color: rgb(0, 0, 0);
+font-family: Mulish;
+font-size: 48px;
+font-weight: 200;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+}
+.boyman{
+    padding-top: 76px;
+}
+.sunnat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brat{
+    width: 434px;
+}
+.botsiz{
+    color: rgb(0, 0, 0);
+font-family: Mulish;
+font-size: 36px;
+font-weight: 200;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: left;
+}
+.botsiz2{
+    color: rgb(125, 121, 135);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 200;
+line-height: 30px;
+letter-spacing: 0%;
+padding: 36px 0;   
+}
+.btm1{
+    width: 200px;
+    padding: 17px 0;
+    border: 1.4px solid rgb(69, 143, 246);
+border-radius: 55px;
+color: rgb(69, 143, 246);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 200;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+display: flex;
+justify-content: center;
+margin-top: 32px;
+}
+.ulugbek{
+    color: rgb(0, 0, 0);
+font-family: Mulish;
+font-size: 36px;
+font-weight: 200;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+padding: 152px 0;
+}
+.botbek5{
+    color: rgb(0, 0, 0);
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+}
+.botbek6{
+    color: rgb(125, 121, 135);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 200;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+width: 268px;
+}
+.botbek5{
+    width: 266px;
+}
+.botbek{
+    display: flex;
+    gap: 10px;
+}
+.botbek{
+    justify-content: center
+}
+.mee{
+    width: 200px;
+    padding: 17px 0;
+    border: 1.4px solid rgb(69, 143, 246);
+border-radius: 55px;
+color: rgb(69, 143, 246);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 200;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+display: flex;
+justify-content: center;
+margin-top: 32px;
+}
